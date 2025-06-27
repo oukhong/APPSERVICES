@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Image, Dimensions } from "react-native";
 
 const screenWidth = Dimensions.get("window").width;
 
-const Card = () => {
+const CardMainService = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Our Main Services</Text>
@@ -73,7 +73,7 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default CardMainService;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -88,6 +88,7 @@ const styles = StyleSheet.create({
   },
 
   layout: {
+    flex: 1,
     flexDirection: "row",
     flexWrap: "wrap", // make responsive wrap
     justifyContent: "space-between",

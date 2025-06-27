@@ -7,9 +7,8 @@ import {
   StyleSheet,
   StatusBar,
 } from "react-native";
-import Card from "./src/Components/Cards/card";
-import Video from "./src/Components/Videos/Video";
-
+import CardMainService from "./src/Components/CardsMainService/CardMainService";
+import CardProcess from "./src/Components/CardsProcess/CardProcess";
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
@@ -19,8 +18,8 @@ const App = () => {
 />
       <ScrollView>
         <View style={{ padding: 50 }}>
-          <Card />
-          <Video />
+          <CardMainService />
+          {/* <CardProcess /> */}
         </View>
       </ScrollView>
     </SafeAreaView>
