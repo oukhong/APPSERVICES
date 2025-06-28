@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import CardMainService from "./src/Components/CardsMainService/CardMainService";
 import CardProcess from "./src/Components/CardsProcess/CardProcess";
+import CardExportService from "./src/Components/CardsExportService/CardExportService";
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
@@ -18,8 +19,9 @@ const App = () => {
 />
       <ScrollView>
         <View style={{ padding: 50 }}>
-          <CardMainService />
+          {/* <CardMainService /> */}
           {/* <CardProcess /> */}
+          <CardExportService />
         </View>
       </ScrollView>
     </SafeAreaView>
