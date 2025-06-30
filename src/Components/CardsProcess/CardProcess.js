@@ -34,15 +34,16 @@ const steps = [
 
 const { width } = Dimensions.get("window");
 
+export default ServiceProcess;
 const styles = StyleSheet.create({
     scroll: {
-        padding: 16,
+        padding: 20,
     },
     title: {
         fontSize: 22,
         fontWeight: "bold",
         textAlign: "center",
-        marginBottom: 16,
+        // marginBottom: 16,
     },
     layout: {
         flexDirection: "column", // Vertical stacking
@@ -77,4 +78,3 @@ const styles = StyleSheet.create({
     },
 });
 
-export default ServiceProcess;

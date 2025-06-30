@@ -82,14 +82,13 @@ const ExportServiceCard = () => {
 export default ExportServiceCard;
 const styles = StyleSheet.create({
   container: {
-    // padding: 16,
+    padding: 20,
     flex: 1,
     gap: 15,
   },
   title: {
     fontSize: 22,
     fontWeight: 'bold',
-    marginBottom: 16,
     color: '#333',
     textAlign: 'center',
   },
@@ -101,7 +100,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.1,
     shadowRadius: 6,
     shadowOffset: { width: 0, height: 2 },
-    elevation: 3,
+    elevation: 2,
   },
   image: {
     width: '100%',
@@ -123,10 +122,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   text:{
-    marginLeft: 195,
+    marginLeft: 180,
   },
   starIcon: {
-    marginRight: 6,
+    marginRight: 10,
   },
   ratingText: {
     fontSize: 16,

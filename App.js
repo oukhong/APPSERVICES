@@ -18,9 +18,9 @@ const App = () => {
   backgroundColor="#ffffff"
 />
       <ScrollView>
-        <View style={{ padding: 50 }}>
-          {/* <CardMainService /> */}
-          {/* <CardProcess /> */}
+        <View>
+          <CardMainService />
+          <CardProcess />
           <CardExportService />
         </View>
       </ScrollView>

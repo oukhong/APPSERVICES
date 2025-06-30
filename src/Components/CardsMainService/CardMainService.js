@@ -76,12 +76,12 @@ const CardMainService = () => {
 export default CardMainService;
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    padding: 16,
+    padding: 20,
+    marginTop: 20
   },
 
   title: {
-    fontSize: 24,
+    fontSize: 22,
     fontWeight: "bold",
     marginBottom: 16,
     textAlign: "center",
@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.1,
     shadowOffset: { width: 0, height: 2 },
     shadowRadius: 4,
-    elevation: 3,
+    elevation: 2,
   },
 
   subtitle: {
